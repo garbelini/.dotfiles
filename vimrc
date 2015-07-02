@@ -6,7 +6,14 @@ set shell=bash
 vmap <C-x> :!pbcopy<CR>  
 vmap <C-c> :w !pbcopy<CR><CR>
 
-:map , :bn<cr>
+""" Easymotion
+let g:EasyMotion_smartcase = 1
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
+
+"" :map , :bn<cr>
 :map . :bp<cr>
 :command JsonFormat %!python -m json.tool
 
@@ -29,6 +36,7 @@ let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_custom_ignore = {'dir': '\.git$\|\.hg$\|\.svn$\|bower_components$\|dist$\|node_modules$\|project_files$\|test$', 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$' }
 
 """" Multicursor
+let g:multi_cursor_use_default_mapping=0
 let g:multi_cursor_next_key='<C-g>'
 let g:multi_cursor_prev_key='<C-p>'
 let g:multi_cursor_skip_key='<C-x>'
@@ -40,7 +48,7 @@ filetype on                   " required
 filetype plugin indent on    " required
 
 """""""""""""""""""" GLOBAL
-"" let mapleader=","
+let mapleader=","
 set gfn=terminus
 set go=
 
