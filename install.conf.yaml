@@ -1,6 +1,5 @@
 - link:
     ~/.tmux.conf: tmux.conf
-    ~/.tmux: tmux
     ~/.vim: vim/
     ~/.vimrc: vimrc
 
