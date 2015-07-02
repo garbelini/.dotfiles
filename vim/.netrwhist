@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/garbelini/.tmux'
+let g:netrw_dirhist_2='/work/puppet-site/hieradata/other'
+let g:netrw_dirhist_3='/work/puppet-site/hieradata/other/scripts'
+let g:netrw_dirhist_4='/Users/garbelini/Google Drive/garbelini/dot-files/.vim/bundle/vim-multiple-cursors'
+let g:netrw_dirhist_5='/Users/garbelini/.vim'
+let g:netrw_dirhist_6='/Users/garbelini/Google Drive/garbelini/dot-files/vim/bundle/vim-tmux'
+let g:netrw_dirhist_7='/Users/garbelini/Google Drive/garbelini/dot-files/vim'
